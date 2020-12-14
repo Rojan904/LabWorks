@@ -9,22 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LabWorks">
-        <activity android:name=".Task5">
+        <activity android:name=".Lab2Task3">
 
         </activity>
-        <activity android:name=".Task4" />
-        <activity android:name=".Task3" />
-        <activity android:name=".Task2" />
-        <activity android:name=".Task1" >
+        <activity android:name=".Lab2Task2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".Lab2Task1">
 
         </activity>
+        <activity android:name=".Task5" />
+        <activity android:name=".Task4" />
+        <activity android:name=".Task3" />
+        <activity android:name=".Task2" />
+        <activity android:name=".Task1" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>
