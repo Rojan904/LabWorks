@@ -9,17 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.LabWorks">
-        <activity android:name=".Lab5Task1">
+        <activity android:name=".PersonDisplayActivity"></activity>
+        <activity android:name=".Lab6" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Lab4Task1">
+        <activity android:name=".Lab5Task1">
 
         </activity>
-        <activity android:name=".Lab3Task1"></activity>
+        <activity android:name=".Lab4Task1" />
+        <activity android:name=".Lab3Task1" />
         <activity android:name=".Lab2Task3" />
         <activity android:name=".Lab2Task2" />
         <activity android:name=".Lab2Task1" />
